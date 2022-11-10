@@ -1,0 +1,63 @@
+.home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    gap: 45px;
+}
+.home section{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.home section > h2{
+    color: #FFF;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+.home section .carousel{
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x proximity;
+    scrollbar-width: none;
+}
+.home section .prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    
+    opacity: 0;
+    padding: 16px 10px;
+    color:white;
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    z-index: 9;
+}
+.home section:hover .prev, .home section:hover .next{
+    opacity: 1;
+    color: white !important;
+}
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover{
+    scale: 1.5;
+}
+@media (max-width: 890px) {
+    .home section .carousel{
+        scroll-snap-type: none;
+    }
+    .home section .carousel{
+        margin-top: 50px;
+    }
+    .prev , .next{
+        display: none;
+    }
+}

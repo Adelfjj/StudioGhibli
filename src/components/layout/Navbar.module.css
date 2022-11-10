@@ -1,0 +1,104 @@
+.nav{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 999;
+}
+nav a.logo{
+    height: 80px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+nav a.logo img{
+    width: 100px;
+    height: 100%;
+    object-fit: scale-down;
+    object-position: bottom;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap:20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #FFF;
+    position: relative;
+    padding: 8px 10px;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+nav ul li a:not(nav ul.user a):hover::after{
+    content: '';
+    background-color:#8ac4e9;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60%;
+    height: 0.1em;
+}
+nav ul.user{
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav ul.user li{
+    background-color:#8ac4e9;
+    border-radius: 10px;
+}
+nav ul.user li a, nav ul.user li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul.user li a{
+    color: white;
+}
+nav ul.user li a:hover, nav ul.user li button:hover{
+    color: black;
+}
+nav ul.user li button{
+    border: none;
+    background-color: transparent;
+    padding: 9px 10px 7px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+nav ul.user li input{
+    display: none;
+    width:0px;
+}
+nav ul.user li:last-child{
+    max-height: 35.5px;
+}
+nav ul.user li div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 8px;
+    height: 100%;
+    overflow: hidden;
+}
+nav ul.user li div div{
+    width: 30px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+nav ul.user li div div img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+nav ul.user li div span{
+    font-size: 12px;
+}

@@ -1,0 +1,85 @@
+.card_info{
+    width: 100%;
+    margin-top: 30px;
+}
+.movie_card{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+}
+.movie_card > img{
+    max-width: 300px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.movie_card .info_mv h2{
+    font-size: 35px;
+    color: #FFF;
+}
+.movie_card .info_mv h2 span{
+    margin-left: 10px;
+    border-radius: 50%;
+    background-color: #8ac4e9;
+    padding: 8px;
+}
+.movie_card .info_mv > p{
+    margin: 10px 0;
+    padding: 20px 0 20px 20px;
+    font-size: 25px;
+    color: #000;
+    border-left: 2px solid black;
+}
+.movie_card .info_mv > div{
+    max-width: 500px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.movie_card .info_mv .descr{
+    margin-top: 15px;
+}
+.movie_card .info_mv .descr h3{
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+.movie_card .info_mv .descr p{
+    opacity: 0.5;
+}
+
+@media (max-width: 890px) { 
+    .movie_card{
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .movie_card .info_mv{
+        margin-top: 10px;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        background-color: #FFF;
+        padding: 10px;
+        width: 100%;
+    }
+    .movie_card .info_mv h2{
+        text-align: center;
+        margin-top: 30px;
+        color: #000;
+    }
+    .movie_card .info_mv h2 > span{
+        color: #FFF;
+    }
+    .movie_card .info_mv > p{
+        text-align:center;
+        padding: 0 0 0 0;
+        font-size: 12px;
+        color: #000;
+        border-left: none;
+        margin-bottom: 30px;
+    }
+    .movie_card .info_mv div{
+        width: 100%;
+        max-width: none;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 1.95px 2.6px;
+    }
+}
