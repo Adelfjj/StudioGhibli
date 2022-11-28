@@ -1,0 +1,25 @@
+.card_news{
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.card_news > div{
+    padding: 25px;
+}
+.card_news > div h2{
+    font-size: 20px;
+    text-align:left;
+    margin-bottom: 15px;
+}
+.card_news > div p{
+    font-size: 14px;
+}
+
+.card_news span{
+    font-size: 13px;
+    border-top: 1px solid rgba(199, 192, 192, 0.4);
+    padding: 15px;
+}

@@ -16,10 +16,10 @@ function Navbar(){
                     <Link to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/">News</Link>
+                    <Link to="/News">News</Link>
                 </li>
                 <li>
-                    <Link to="/">About</Link>
+                    <Link to="/About">About</Link>
                 </li>
             </ul>
             <ul className={styles.user}>
