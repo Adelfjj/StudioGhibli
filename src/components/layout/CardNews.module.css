@@ -7,12 +7,12 @@
     overflow: hidden;
 }
 .card_news > div{
-    padding: 25px;
+    padding: 40px 30px;
 }
 .card_news > div h2{
     font-size: 20px;
     text-align:left;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .card_news > div p{
     font-size: 14px;

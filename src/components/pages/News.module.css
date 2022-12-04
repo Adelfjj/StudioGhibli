@@ -6,3 +6,19 @@
     gap: 1.5em;
     justify-content:flex-start;
 }
+@media (max-width: 750px) {
+    .news article{
+        width: 46%;
+    }
+    .news{
+        padding: 10px;
+    }
+}
+@media (max-width: 530px) {
+    .news article{
+        width: 100%;
+    }
+    .news{
+        padding: 0px;
+    }
+}

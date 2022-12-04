@@ -7,7 +7,7 @@ function CardInfo(){
     const [data, setData] = useState(null);
 
     useEffect(() => {
-        fetch(`https://ghibliapi.herokuapp.com/films/${id}`)
+        fetch(`http://localhost:5000/films/${id}`)
         .then((resp) => resp.json())
         .then((data) => setData(data))
         .catch((err) => console.log(err));

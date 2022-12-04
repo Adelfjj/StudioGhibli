@@ -9,7 +9,7 @@ function Home (){
     const navigate = useNavigate();
 
     useEffect(() => {
-        fetch('https://ghibliapi.herokuapp.com/films')
+        fetch('http://localhost:5000/films')
         .then((resp) => resp.json())
         .then((data) => setData(data))
         .catch((err) => console.log(err));
