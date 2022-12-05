@@ -9,7 +9,12 @@ function Home (){
     const navigate = useNavigate();
 
     useEffect(() => {
-        fetch('http://localhost:5000/films')
+        fetch('http://localhost:5000/films',{
+            method: 'GET',
+            headers: {
+                'Content-type': 'application/json',
+            },
+        })
         .then((resp) => resp.json())
         .then((data) => setData(data))
         .catch((err) => console.log(err));

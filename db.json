@@ -308,5 +308,35 @@
         "running_time": "82",
         "rt_score": "30"
       }
+    ],
+    "news" : [
+      {
+        "id" : "1",
+        "title": "Star Wars ganha curta animado pelo Studio Ghibli na Disney+",
+        "text" : "Studio Ghibli publicou em seu Twitter na semana passada, um video misterioso no qual era possivel ver a logo LucasFilm",
+        "post_dat":"01/02/1993",
+        "image":"https://fakeimg.pl/350x200/ff0000,128/000,255"
+      },
+      {
+        "id" : "2",
+        "title": "Star Wars ganha curta animado pelo Studio Ghibli na Disney+",
+        "text" : "Studio Ghibli publicou em seu Twitter na semana passada, um video misterioso no qual era possivel ver a logo LucasFilm",
+        "post_dat":"01/02/1993",
+        "image":"https://fakeimg.pl/350x200/ffffff,128/000,255"
+      },
+      {
+        "id" : "3",
+        "title": "Star Wars ganha curta animado pelo Studio Ghibli na Disney+",
+        "text" : "Studio Ghibli publicou em seu Twitter na semana passada, um video misterioso no qual era possivel ver a logo LucasFilm",
+        "post_dat":"01/02/1993",
+        "image":"https://fakeimg.pl/350x200/"
+      },
+      {
+        "id" : "4",
+        "title": "Star Wars ganha curta animado pelo Studio Ghibli na Disney+",
+        "text" : "Studio Ghibli publicou em seu Twitter na semana passada, um video misterioso no qual era possivel ver a logo LucasFilm",
+        "post_dat":"01/02/1993",
+        "image":"https://fakeimg.pl/350x200/"
+      }
     ]
   }
